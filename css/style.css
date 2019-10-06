@@ -1,0 +1,369 @@
+.header {
+  position: relative;
+  background: url(../images/tim_bg_1.jpg) repeat;
+  width: 100%;
+  height: 1050px;
+  overflow: hidden;
+}
+#topl {
+  position: absolute;
+  top: 0;
+  left: 360px;
+}
+a:hover {
+  color: black;
+}
+#logo {
+  float: left;
+  padding: 18px;
+  margin-right: 10px;
+}
+.toplNav {
+  float: left;
+}
+#topl ul li {
+  float: left;
+  width: 76px;
+  height: 76px;
+  text-align: center;
+  margin-left: 22px;
+  line-height: 76px;
+  cursor: pointer;
+  font-size: 18px;
+}
+a:link {
+  text-decoration: none;
+}
+.fl {
+  background-color: #12b7f5;
+}
+#topl > ul > li:hover {
+  background-color: #12b7f5;
+}
+#topr {
+  position: absolute;
+  top: 0;
+  right: 360px;
+}
+#reg {
+  float: left;
+  background: url(../images/icons.png) no-repeat 0 -244px;
+  width: 95px;
+  height: 40px;
+  display: block;
+  margin: 20px 40px 20px 20px;
+}
+#reg:hover {
+  background: url(../images/icons.png) no-repeat 0 -284px;
+}
+#topr > ul {
+  float: left;
+  margin-top: 18px;
+}
+#topr > ul > li {
+  float: left;
+  margin-right: 34px;
+  font-size: 14px;
+}
+#peo {
+  margin-top: 44px;
+  font-size: 14px;
+}
+#peo a:hover {
+  text-decoration: underline;
+}
+.tim {
+  position: absolute;
+  top: 110px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.download {
+  position: absolute;
+  top: 310px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.icon {
+  position: absolute;
+  top: 460px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.doc {
+  position: absolute;
+  top: 600px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.brand {
+  background-color: white;
+  width: 100%;
+  position: absolute;
+  top: 770px;
+}
+.brand img {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.main1 {
+  background: url(../images/fisrtbg.jpg) no-repeat fixed;
+  width: 100%;
+  height: 1180px;
+  position: relative;
+  overflow: hidden;
+}
+.communicate-01 {
+  position: absolute;
+  background-color: white;
+  width: 100%;
+  height: 580px;
+  margin-top: 600px;
+}
+.pic1 {
+  position: absolute;
+  top: -180px;
+  left: 440px;
+}
+.gt-1 {
+  position: absolute;
+  top: 120px;
+  right: 480px;
+}
+.des-1 {
+  position: absolute;
+  color: #797979;
+  font-size: 18px;
+  top: 250px;
+  right: 475px;
+  text-align: right;
+  letter-spacing: 0.12em;
+  opacity: 0.7;
+}
+.des-1 > a {
+  display: block;
+  margin-top: 15px;
+  color: #70d3f8;
+}
+.fig-1 {
+  position: absolute;
+  top: 390px;
+  right: 475px;
+}
+.communicate-01 ul {
+  position: absolute;
+  top: 450px;
+  right: 470px;
+  opacity: 0.7;
+}
+.communicate-01 ul li {
+  text-align: right;
+  float: left;
+  margin-left: 50px;
+  font-size: 15px;
+}
+.main2 {
+  background: url(../images/avd.jpg) no-repeat fixed;
+  width: 100%;
+  height: 1180px;
+  position: relative;
+  overflow: hidden;
+}
+.communicate-02 {
+  position: absolute;
+  background-color: white;
+  width: 100%;
+  height: 580px;
+  margin-top: 600px;
+}
+.pic2 {
+  position: absolute;
+  top: 150px;
+  right: 380px;
+}
+.gt-2 {
+  position: absolute;
+  top: 120px;
+  left: 480px;
+}
+.des-2 {
+  position: absolute;
+  color: #797979;
+  font-size: 18px;
+  top: 250px;
+  left: 475px;
+  text-align: left;
+  letter-spacing: 0.12em;
+  opacity: 0.7;
+}
+.des-2 > a {
+  display: block;
+  margin-top: 15px;
+  color: #70d3f8;
+}
+.fig-2 {
+  position: absolute;
+  top: 390px;
+  left: 475px;
+}
+.communicate-02 ul {
+  position: absolute;
+  top: 450px;
+  left: 475px;
+  opacity: 0.7;
+}
+.communicate-02 ul li {
+  text-align: left;
+  float: left;
+  margin-right: 55px;
+  font-size: 15px;
+}
+.main3 {
+  background: url(../images/blog.jpg) no-repeat fixed;
+  width: 100%;
+  height: 1180px;
+  position: relative;
+  overflow: hidden;
+}
+.communicate-03 {
+  position: absolute;
+  background-color: white;
+  width: 100%;
+  height: 580px;
+  margin-top: 600px;
+}
+.pic3 {
+  position: absolute;
+  top: 100px;
+  left: 550px;
+}
+.gt-3 {
+  position: absolute;
+  top: 120px;
+  right: 480px;
+}
+.des-3 {
+  position: absolute;
+  color: #797979;
+  font-size: 18px;
+  top: 250px;
+  right: 475px;
+  text-align: right;
+  letter-spacing: 0.12em;
+  opacity: 0.7;
+}
+.des-3 > a {
+  display: block;
+  margin-top: 15px;
+  color: #70d3f8;
+}
+.fig-3 {
+  position: absolute;
+  top: 390px;
+  right: 475px;
+}
+.communicate-03 ul {
+  position: absolute;
+  top: 450px;
+  right: 475px;
+  opacity: 0.7;
+}
+.communicate-03 ul li {
+  text-align: right;
+  float: left;
+  margin-left: 44px;
+  font-size: 15px;
+}
+.foot {
+  width: 100%;
+  height: 380px;
+  background-color: #2a2a2a;
+  font-size: 14px;
+  position: relative;
+}
+.foot-left {
+  color: #666666;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-100%);
+  width: 480px;
+  height: 200px;
+}
+.foot-left > p {
+  margin-top: 40px;
+}
+.foot-left > a {
+  float: left;
+  display: block;
+  width: 80px;
+  padding-top: 65px;
+  text-align: center;
+  color: #979797;
+  margin-right: 35px;
+  margin-top: 30px;
+}
+.foot-left a:hover {
+  color: #12b7f5;
+}
+#foot-a1 {
+  background: url(../images/plats1.png) no-repeat;
+}
+#foot-a2 {
+  background: url(../images/plats1.png) no-repeat -108px 0px;
+}
+#foot-a3 {
+  background: url(../images/plats1.png) no-repeat -218px 0px;
+}
+#foot-a4 {
+  background: url(../images/plats1.png) no-repeat -326px 0px;
+}
+#foot-a1:hover {
+  background: url(../images/plats1.png) no-repeat 0 -93px;
+}
+#foot-a2:hover {
+  background: url(../images/plats1.png) no-repeat -108px -93px;
+}
+#foot-a3:hover {
+  background: url(../images/plats1.png) no-repeat -218px -93px;
+}
+#foot-a4:hover {
+  background: url(../images/plats1.png) no-repeat -326px -93px;
+}
+.foot-right {
+  position: absolute;
+  left: 480px;
+  width: 480px;
+  height: 200px;
+  left: 50%;
+}
+.service-1,
+.service-2,
+.service-3 {
+  float: left;
+  margin: 50px;
+  font-size: 12px;
+  line-height: 22px;
+}
+.foot-right dt {
+  color: #666666;
+  font-size: 14px;
+}
+.foot-right a {
+  color: #979797;
+}
+.foot-right a:hover {
+  color: #cfcfcf;
+}
+.foot-bottom {
+  position: absolute;
+  top: 250px;
+  left: 470px;
+  width: 960px;
+  border-top: 1px solid #979797;
+  text-align: center;
+  color: #666666;
+}
+.foot-bottom p {
+  margin-top: 20px;
+}
